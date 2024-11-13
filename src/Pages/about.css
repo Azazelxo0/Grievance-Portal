@@ -1,0 +1,26 @@
+.text-box {
+    background-color: #fdf6b1;  
+    color: #333;             
+    padding: 20px;
+    border-radius: 10px;       
+    box-shadow:4px 4px 0 #333; 
+    /* max-width: 600px;            */
+    margin: 10px auto;          
+    font-size: 16px;
+    align-items: center;
+    margin-bottom: 150px;
+
+  }
+
+  .b3{
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #7a6666;
+    background-color: #98FF98; /* Bright, comic-style button color */
+    border: 3px solid #333;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 4px 4px 0 #333; /* Comic-style shadow */
+    margin-bottom: 20px;
+   }

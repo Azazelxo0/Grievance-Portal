@@ -1,0 +1,55 @@
+.background {
+    background-image: url("https://wsstgprdphotosonic01.blob.core.windows.net/photosonic/920c2cea-ba82-4802-bb24-d7b87847f749.png");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+  
+  .content {
+    position: relative;
+    color: white;
+    text-align: center;
+  }
+  
+  h1, p, button {
+    font-family: cursive;
+  }
+
+ .b1{
+  padding: 10px 20px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #7a6666;
+  background-color: #87CEEB; /* Bright, comic-style button color */
+  border: 3px solid #333;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 4px 4px 0 #333; /* Comic-style shadow */
+  margin-bottom: 20px;
+ }
+
+ .b2{
+  padding: 10px 20px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #8a6a6a;
+  background-color: #FFF176; /* Bright, comic-style button color */
+  border: 3px solid #333;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 4px 4px 0 #333; /* Comic-style shadow */
+ }
+
