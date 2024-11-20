@@ -1,11 +1,14 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { Link } from 'react-router-dom';
 import './Homepage.css';
 import { motion } from "motion/react"
 
 
 
+
 export default function Home() {
+
+  
 
   return (
     <>
@@ -26,7 +29,7 @@ export default function Home() {
               <motion.button
                 initial={{ scale: 0 }}
                 animate={{ scale: 1, transition: { duration: 0.3, delay: 0.3, ease: "linear" } }}
-                whileHover={{ scale: 1.1, transition: { duration: 0.3, ease: "linear" } }}
+                whileHover={{ scale: 1.1, transition: { duration: 0.1, ease: "linear"} }}
                 className="b1" >
                 File Your Grievance
               </motion.button>
@@ -36,7 +39,7 @@ export default function Home() {
               <motion.button
                 initial={{ scale: 0 }}
                 animate={{ scale: 1, transition: { duration: 0.3, delay: 0.3, ease: "linear" } }}
-                whileHover={{ scale: 1.1, transition: { duration: 0.3, ease: "linear" } }}
+                whileHover={{ scale: 1.1, transition: { duration: 0.1, ease: "linear" } }}
                 className="b2" >
                 About Us
               </motion.button>
