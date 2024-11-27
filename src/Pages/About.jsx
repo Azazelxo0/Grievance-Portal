@@ -24,6 +24,7 @@ function About() {
             <motion.div
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}
+              transition={{ duration: 1 }}
               viewport={{ amount: 'all' }}
               className='text-center m-5'>
               <h1>ABOUT US</h1>
@@ -32,8 +33,9 @@ function About() {
             <motion.div
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}
-              viewport={{ amount: 'all' }}
-              whileHover={{ scale: 1.5, transition: { duration: 0.3, ease: "linear" } }}
+              viewport={{ amount: 0.3 }}
+              transition={{ duration: 1 }}
+              whileHover={{ scale: 1.5, transition: { duration: 0.5, ease: "linear" } }}
               className='text-box '>
               <div className='text-center '>
                 <h4 className='mb-3'>Meet Our Hero: Mumen Rider</h4>
@@ -53,8 +55,9 @@ function About() {
             <motion.div
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}
-              viewport={{ amount: 'all' }}
-              whileHover={{ scale: 1.5, transition: { duration: 0.3, ease: "linear" } }}
+              viewport={{ amount: 0.3 }}
+              transition={{ duration: 1 }}
+              whileHover={{ scale: 1.5, transition: { duration: 0.5, ease: "linear" } }}
               className='text-box '>
               <div className='text-center '>
                 <h4 className='mb-3'>Our Mission</h4>
@@ -74,8 +77,9 @@ function About() {
             <motion.div
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}
-              viewport={{ amount: 'all' }}
-              whileHover={{ scale: 1.5, transition: { duration: 0.3, ease: "linear" } }}
+              viewport={{ amount: 0.3 }}
+              transition={{ duration: 1 }}
+              whileHover={{ scale: 1.5, transition: { duration: 0.5, ease: "linear" } }}
               className='text-box '>
               <div className='text-center '>
                 <h4 className='mb-3'>Mumen Rider’s Journey</h4>
@@ -97,8 +101,9 @@ function About() {
             <motion.div
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}
-              viewport={{ amount: 'all' }}
-              whileHover={{ scale: 1.5, transition: { duration: 0.3, ease: "linear" } }}
+              viewport={{ amount: 0.3 }}
+              transition={{ duration: 1 }}
+              whileHover={{ scale: 1.5, transition: { duration: 0.5, ease: "linear" } }}
               className='text-box '>
               <div className='text-center '>
                 <h4 className='mb-3'>How We Address Grievances</h4>
@@ -110,10 +115,7 @@ function About() {
                   Listening: Every submission is read with care, ensuring your voice is truly heard.
                   <br />
                   Analyzing: Each grievance is reviewed to determine the best course of action.
-                  <br />
-                  Acting: Mumen Rider may not have super-speed, but he has super dedication.
-                  He takes every possible action to resolve issues, whether it’s through community
-                  collaboration, riding to the scene, or spreading awareness.
+                  
                   <br />
                   Resolution: Mumen Rider’s goal is to inspire justice and fairness in the city,
                   bringing people together to create a safer, more inclusive community.</p>
@@ -124,8 +126,9 @@ function About() {
             <motion.div
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}
-              viewport={{ amount: 'all' }}
-              whileHover={{ scale: 1.5, transition: { duration: 0.3, ease: "linear" } }}
+              viewport={{ amount: 0.3 }}
+              transition={{ duration: 1 }}
+              whileHover={{ scale: 1.5, transition: { duration: 0.5, ease: "linear" } }}
               className='text-box '>
               <div className='text-center '>
                 <h4 className='mb-3'>Join the Journey to Justice</h4>
@@ -140,7 +143,7 @@ function About() {
             </motion.div>
             <Link to={'/'}>
               <motion.button
-                whileHover={{ scale: 1.2, transition: { duration: 0.3, ease: "linear" } }}
+                whileHover={{ scale: 1.2, transition: { duration: 0.5, ease: "linear" } }}
                 className='b3 '>Back to Home</motion.button>
             </Link>
 
